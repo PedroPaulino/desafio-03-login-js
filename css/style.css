@@ -1,0 +1,134 @@
+/*
+    PADRONIZAÇÃO
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+}
+/* 
+    FONTS
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400&display=swap');
+
+
+/* 
+    ANIMAÇÃO
+*/
+
+@keyframes popOver{
+    from{
+        font-size: 0rem;
+    }
+    to{
+        font-size: 1rem;
+    }
+}
+
+/* 
+    FULL HEIGHT 
+*/
+html{
+   height: 100%;
+} 
+body, main{
+  
+    height: 100vh;
+}
+/* 
+    MAIN || FORMULARIO
+*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #84244E;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    
+    color: white;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+form h1{
+    text-align: center;
+    margin: 40px 0px;
+    text-shadow:  2px 2px 5px black;
+}
+form label{
+    margin: 0px 50px;
+}
+form input{
+    background-color: #84244E;
+    height: 70px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    transition: background-color 1s;
+    box-shadow: inset 2px 2px 5px black;
+    text-indent: 20px;
+}
+form input:focus{
+    outline: none;
+    background-color: #973c63;
+    transition: background-color 1s;
+}
+
+
+.button-login{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 40px;
+    transition: background-color 1s;
+    box-shadow:  2px 2px 5px black;
+    text-indent: 0px;
+}
+
+.button-login:hover{
+    background-color: #973c63;
+    transition: all 1s;
+}
+form p{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+/* 
+    VALIDAÇÃO DE LOGIN
+*/
+#mensagemLogin{
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    bottom: 30px;
+    color: white;
+    background-color: #973c63;
+    box-shadow:  2px 2px 5px black;
+    text-align: center;
+    animation: popOver 1s;
+}
+
+#loginValido{
+    position:absolute;
+    left: 80px;
+    visibility: hidden;
+    
+}
+#loginInvalido{
+
+    visibility: hidden;
+}
