@@ -14,6 +14,7 @@ No qual é a criação de um formulário de login utilizando apenas JavaScript s
 3 - Defini o layout esqueleto.
 4 - Através do figma fiz o Wireframe.
 O link para visualizar é este: https://www.figma.com/file/3mcBT2OlYaInkz6yoAW1iv/Login---JS
+
 5 - Construi primeiro o html puro, com todos os textos e tags que iriam ser utilizadas.
 6 - Estilizei o html utilizando css puro.
 7 - Construi a validação do login utilizando JS puro.
