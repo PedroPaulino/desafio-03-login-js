@@ -20,4 +20,5 @@ O link para visualizar é este: https://www.figma.com/file/3mcBT2OlYaInkz6yoAW1i
 7 - Construi a validação do login utilizando JS puro.
 8 - Criei um novo repositório e utilizei git bash.
 
+// Link para usar no navegador: https://pedropaulino.github.io/desafio-03-login-js/
 |-- Obrigado pela sua atenção --|
